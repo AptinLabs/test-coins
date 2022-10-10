@@ -1,0 +1,13 @@
+[package]
+name = 'TestCoins'
+version = '1.0.0'
+upgrade_policy = "immutable"
+
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = '985f19d40457a5f09f2d741b1feca6bf7ba1f8a6'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+test_coins='0xac8c9af888c74b8973d119b0bb4fa784d646794537ef1cee0bc10a36a0bb6623'
